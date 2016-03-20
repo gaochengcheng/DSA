@@ -120,7 +120,7 @@ int main(){
 			stringstream ss;
 			for(int i = 0; i < s.size(); i++)
 				if(s[i] == '(' || s[i] == ')' || s[i] == ',') s[i] = ' ';
-			ss << s;   //这是为了转换格式
+			ss << s;
 			ss >> val;
 			path = "";
 			ss >> path;

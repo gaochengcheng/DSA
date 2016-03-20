@@ -21,4 +21,8 @@ Status InOrderTraverse2(BiTree T, Status (*visit)(TElemType e));
 Status InOrderTraverse3(BiTree T, Status (*visit)(TElemType e));
 Status PostOrderTraverse2(BiTree T, Status (*visit)(TElemType e));
 
+//我定义的一些函数
+Status CreateBiTreeG(BiTree &T); 
+Status displayG(TElemType e);
+
 #endif
